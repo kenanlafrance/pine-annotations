@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "LaraChimp\\PineAnnotations\\": "src/"
+            "Kenanl\\PineAnnotations\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "LaraChimp\\PineAnnotations\\Tests\\": "tests/"
+            "Kenanl\\PineAnnotations\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -43,10 +43,10 @@
         },
         "laravel": {
             "providers": [
-                "LaraChimp\\PineAnnotations\\PineAnnotationsServiceProvider"
+                "Kenanl\\PineAnnotations\\PineAnnotationsServiceProvider"
             ],
             "aliases": {
-                "AnnotationsReader": "LaraChimp\\PineAnnotations\\Facades\\Reader"
+                "AnnotationsReader": "Kenanl\\PineAnnotations\\Facades\\Reader"
             }
         }
     },
