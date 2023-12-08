@@ -31,21 +31,21 @@
 },
 "autoload": {
     "psr-4": {
-        "Kenanl\\PineAnnotations\\": "src/"
+        "LaraChimp\\PineAnnotations\\": "src/"
     }
 },
 "autoload-dev": {
     "psr-4": {
-        "Kenanl\\PineAnnotations\\Tests\\": "tests/"
+        "LaraChimp\\PineAnnotations\\Tests\\": "tests/"
     }
 },
 "extra": {
     "laravel": {
         "providers": [
-            "Kenanl\\PineAnnotations\\PineAnnotationsServiceProvider"
+            "LaraChimp\\PineAnnotations\\PineAnnotationsServiceProvider"
         ],
         "aliases": {
-            "AnnotationsReader": "Kenanl\\PineAnnotations\\Facades\\Reader"
+            "AnnotationsReader": "LaraChimp\\PineAnnotations\\Facades\\Reader"
         }
     }
 },
